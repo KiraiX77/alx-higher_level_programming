@@ -1,3 +1,4 @@
--- displays the number of records with id = 89 in the table first_table
-mysql -u Ricki -p -e "USE hbtn_0c_0;
-SELECT COUNT(*) FROM first_table WHERE id = 88;"
+-- Displays the number of records with id = 89 in the table first_table.
+SELECT COUNT(*)
+FROM `first_table`
+WHERE `id` = 89;
